@@ -129,3 +129,48 @@ body{
 .hero-txt button:hover{
     background: #87331a;
 }
+
+/* Diferencias */
+.diferenciais{
+    background: #0F5132;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.diferenciais h2{
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #155E3A;
+    padding: 10px 30px;
+    margin: 0 20px;
+    border-radius: 15px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-8px);
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 16px;
+    line-height: 1.3;
+}
