@@ -194,4 +194,27 @@ body{
     gap: 40px;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: left;
+}
+.lista ul{
+    list-style: none;
+    margin: 0 20px;
+}
+.lista ul::before{
+    content: attr(data-title);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.lista li{
+    margin: 6px 30px;
+    font-size: 15px;
+    position: relative;
+    padding-left: 15px;
+}
+.lista li::before{
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #000;
 }
